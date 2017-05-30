@@ -3,7 +3,7 @@
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
 
-		<title>UX103: Intro to Sketch ~ Girl Develop IT</title>
+		<title>Intro to Sketch App: User Interface Design ~ Girl Develop It</title>
 
     <meta name="description" content="Girl Develop It framework for easily creating beautiful presentations using HTML in GDI theme. Forked from Hakim El Hattab's reveal.js">
     <meta name="author" content="Girl Develop It">
@@ -36,9 +36,9 @@
         <!-- Opening slide -->
         <section class="future" style="display: block;">
           <img src="./files/gdi_logo_badge.png" style="width: 300px; border: none; box-shadow: none;">
-          <h3>Intro to Sketch</h3>
+          <h3>Intro to Sketch App</h3>
           <br/>
-          <p class="center">Notes &amp; Slides: <a href="http://bit.ly/gdiphilly_ux103">http://bit.ly/gdiphilly_ux103</a></p>
+          <p class="center">Download:<a href="../project_files.zip"> Project Files</a></p>
         </section>
 
         <!-- Welcome-->
@@ -63,171 +63,326 @@
           <ul>
             <li>Who are you?</li>
             <li>What do you hope to get out of the class?</li>
-            <li>Random Question of the Day...</li>
+            <li>What is your dream job?</li>
           </ul>
           </div>
         </section>
 
         <section>
-            <h2>Class Agenda</h2>
+            <h3>Class Agenda</h3>
             <ol>
                 <li>What is Sketch?</li>
                 <li>Tour of the Interface</li>
-                <li>Design a Web page!</li>
+                <li>Basic Features of Sketch</li>
+                <li>Exporting Designs</li>
+                <li>Plugins</li>
+                <li>Design a Mobile App</li>
             </ol>
         </section>
 
         <!-- Basics-->
         <section>
-            <h2>What is Sketch?</h2>
-            <p>Sketch is an app intended to create web and mobile app designs. It's an alternative to more complex and expensive programs like Photoshop, focusing entirely on the tools designers need to create interfaces.</p>
-            <p class="blue">It's currently only for use on a Mac.</p>
+            <h3>What is Sketch?</h3>
+            <p>Sketch is an native Mac app intended to create web and mobile app designs.</p>
+            <ul>
+                <li>😃 Native app</li>
+                <li>😃 Vector based tool</li>
+                <li>😃 Plugins = Magic</li>
+                <li>😃 Integrates well with Prototyping tools</li>
+                <br>
+                <li>☹️ Only available on Macs</li>
+            </ul>
         </section>
 
         <section>
-            <h5>Designing a Homepage</h5>
+            <h4>Tour of the Interface</h4>
+            <p class="center">Toolbar</p>
             <div class="stretch-container"> 
-                <img class="light-border" src="./images/Desktop.png">
+                <img class="light-border" src="./images/UI-Toolbar.png">
             </div> 
         </section>
 
         <section>
-            <h5>We'll Cover:</h5>
+            <h4>Tour of the Interface</h4>
+            <p class="center">Infinite Canvas</p>
+            <div class="stretch-container"> 
+                <img class="light-border" src="./images/UI-Canvas.png">
+            </div> 
+        </section>
+
+        <section>
+            <h4>Tour of the Interface</h4>
+            <p class="center">Layer List</p>
+            <div class="stretch-container"> 
+                <img class="light-border" src="./images/UI-LayerList.png">
+            </div> 
+        </section>
+
+        <section>
+            <h4>Tour of the Interface</h4>
+            <p class="center">Inspector</p>
+            <div class="stretch-container"> 
+                <img class="light-border" src="./images/UI-Inspector.png">
+            </div> 
+        </section>
+
+        <section>
+            <h3>Basic Features of Sketch:</h3>
             <ol>
-                <li>Grids, Guides, and Artboards</li>
-                <li>Backgrounds - Gradients, Noise, &amp; Tiled</li>
-                <li>Creating Vector elements (logos, etc)</li>
-                <li>Making Re-usable symbols (buttons, etc)</li>
-                <li>Grouping and Masking</li>
+                <li>Framing your project with Artboards</li>
+                <li>Moving Around the Project</li>
+                <li>Creating, Editing, Grouping Layers</li>
                 <li>Fast &amp; Easy Alignments</li>
                 <li>Styles! Shadows, Borders, and more</li>
-                <li>Text and Layer Style Pre-sets</li>
-                <li>... and lots more!</li>
+                <li>Text and Layer Style</li>
+                <li>Making Reusable symbols (buttons, etc)</li>
             </ol>
         </section>
 
         <section>
-            <h1>Project Set Up</h1>
+            <h4>Framing your project with Artboards</h4>
             <br />
+            <div class="left"> 
+                <img src="./images/basics-artboards.png" class="light-border">
+            </div>
             <ul>
-                <li>Tour of UI</li>
-                <li>Artboard Awesomeness :]</li>
+                <li>Preset Options</li>
+                <li>Landscape or Portrait</li>
+                <li>Resize Options</li>
+                <li>Multiple Boards<br>(option + click to duplicate)</li>
             </ul>
         </section>
 
         <section>
-            <h2>Grid Systems</h2>
+            <h4>Framing your project with Artboards</h4>
             <br />
-            <ul>
-                <li>General Standard is a 960px wide grid</li>
-                <li>12 columns or 24 columns</li>
-            </ul>
-        </section>
-
-        <section>
-            <div class="stretch-container"> 
-                <img src="./images/LayoutSettings.png" class="light-border stretch-height">
+            <div> 
+                <img src="./images/basics-artboardtemplates.png" class="light-border">
             </div>
-        </section>
-
-        <section>
-            <h3>Multiple Artboards</h3>
-            <br />
-            <p>You can have your designs for multiple screen sizes all in one file. (YAY)</p>
-            <div class="stretch-container"> 
-                <img src="./images/WireframeKit.png" class="light-border stretch-width">
-            </div>
-        </section>
-
-        <section>
-            <h3>Artboard Templates</h3>
-            <br /><br />
             <p><i>Find the Responsive Wireframe Kit at:</i></p>
             <p class="blue">File > New From Template... > Web Design</p>
         </section>
 
         <section>
-            <h2>Background Images</h2>
-            <br /><br />
-            <ul>
-                <li>"Layers" are just objects</li>
-                <li>Grouping Layers</li>
-                <li>Layer styles and view modes</li>
-                <li>Locking Layers</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>The Header</h2>
-            <br /><br />
-            <ul>
-                <li>Designing the Header</li>
-                <li>Composite Vector Elements</li>
-                <li>Faux repeatable borders</li>
-                <li>Styles - Shadows</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>The Navigation</h2>
-            <br /><br />
-            <ul>
-                <li>Creating Symbols</li>
-                <li>Alignment Utilities</li>
-                <li>Font Styles</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Hero Image Section</h2>
-            <br /><br />
-            <ul>
-                <li>Inserting Images</li>
-                <li>Shapes as Masks</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Call Outs</h2>
-            <br /><br />
-            <ul>
-                <li>Duplicating Elements</li>
-                <li>Replace Image (OMG)</li>
-                <li>Shared Layer Styles</li>
-                <li>Measuring Distance between elements</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Exporting</h2>
+            <h4>Moving Around the Project</h4>
             <br />
             <ul>
-                <li>Exporting Artboards</li>
-                <li>Making elements exportable</li>
-                <li>Exporting all the things!</li>
+                <li>CMD + 1 to see entire project</li>
+                <li>CMD + 2 to zoom in on selection</li>
+                <li>CMD + and CMD - to zoom in and out</li>
+                <li>CMD + . is Present mode</li>
             </ul>
         </section>
 
         <section>
-            <h2>CSS Attributes</h2>
+            <h3>Let's Develop It! 💻</h3>
             <br />
-            <p>Copy CSS Attributes and paste right into your stylesheet!</p>
+            <p class="blue">Go to Workspace Page. Create an artboard or two and rename to "Practice Artboard" and "Practice Arboard 2". Practice zooming in and out of your artboards.</p>
         </section>
 
         <section>
-            <h3>Wrapping Up</h3>
+            <h4>Creating, Editing, Grouping Layers</h4>
+            <br />
+            <div class="left"> 
+                <img src="./images/basics-layers.png" class="light-border">
+            </div>
+            <ul>
+                <li>CMD + Click to select layers</li>
+                <li>Shift + Option to scale </li>
+                <li>Option + Click to drag </li>
+                <li>CMD + G to group layers</li>
+            </ul>
         </section>
 
         <section>
-            <h3>Useful Shortcuts</h3>
-            <br /><br />
-            <h2><a href="http://sketchshortcuts.com/">http://sketchshortcuts.com/</a></h2>
+            <h4>Creating, Editing, Grouping Layers</h4>
+            <br />
+            <div class="left"> 
+                <img src="./images/basics-type.png" class="light-border">
+            </div>
+            <ul>
+                <li>"T" = adds text</li>
+                <li>Auto vs. Fixed text</li>
+                <li>Text Options</li>
+            </ul>
         </section>
 
         <section>
-            <h4>Articles and More Sketch Info</h4>
-            <br /><br />
-            <h3><a href="http://bit.ly/ux103_links">http://bit.ly/ux103_links</a></h3>
+            <h4>Fast &amp; Easy Alignments</h4>
+            <br />
+            <div> 
+                <img src="./images/basics-align.png" class="light-border">
+            </div>
+        </section>
+
+        <section>
+            <h3>Let's Develop It! 💻</h3>
+            <br />
+            <p class="blue">Add some shapes and text to your artboard. Group and rename layers appropriately. Try using the keyboard commands in the previous slides.</p> 
+            <p class="blue">Suggestion: Go to your favorite website and try to recreate the header or another UI component from that site.</p>
+        </section>
+
+        <section>
+            <h4>Styles! Shadows, Borders, and more</h4>
+            <br />
+            <div class="left"> 
+                <img src="./images/basics-styles.png" class="light-border">
+            </div>
+            <ul>
+                <li>Multiple Fills & Borders</li>
+                <li>Shadows</li>
+                <li>Edit > Set as Default</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Let's Develop It! 💻</h3>
+            <br />
+            <p class="blue">Have some fun adding colors, borders and other styles to your current artboards.</p> 
+            <p class="blue">Suggestion: Try adding different fills including an image with a gradient overlay, try adding fills to text layers including image, add some drop shadows to your design.</p>
+        </section>
+
+        <section>
+            <h4>Text and Layer Styles</h4>
+            <br />
+            <div class="left"> 
+                <img src="./images/basics-shared.png" class="light-border">
+            </div>
+            <ul>
+                <li>Reusable styles for layers and text</li>
+                <li>Update Across the Project</li>
+                <li>Use "/" to create folders</li>
+            </ul>
+        </section>
+
+        <section>
+            <h4>Making Reusable Symbols</h4>
+            <br />
+            <div> 
+                <img src="./images/basics-symbols.png" class="light-border">
+            </div>
+            <ul>
+                <li>Start by making a group of layers you want to repeat</li>
+                <li>Use "/" to create folders</li>
+                <li>Symbols Page - Artboard sizes matter</li>
+                <li>Overrides are your friend</li>
+                <li>Nested Symbols</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Let's Develop It! 💻</h3>
+            <br />
+            <p class="blue">Let's start with a basic button symbol.</p> 
+            <p class="blue">Create a button style with text. Create multiple colors and styles to switch between in your project.</p>
+        </section>
+
+        <section>
+            <h3>Exporting Designs: Layers and Artboards</h3>
+            <br />
+            <div class="left"> 
+                <img src="./images/export.png" class="light-border">
+            </div>
+            <ul>
+                <li>Multple formats and sizes</li>
+                <li>Insert Slices</li>
+                <li>Apply background color</li>
+                <li>Set presets</li>
+            </ul>
+        </section>
+
+        <section>
+            <h4>Exporting Designs: Mirror</h4>
+            <br />
+            <div> 
+                <img src="./images/export-mirror.png" class="light-border">
+            </div>
+            <ul>
+                <li>View design in iOS app or browser</li>
+                <li>Live updates</li>
+                <li>Great for user testing or presenting designs</li>
+            </ul>
+        </section>
+
+        <section>
+            <h4>Exporting Designs: Sketch Cloud</h4>
+            <br />
+            <div class="left"> 
+                <img src="./images/export-sketchcloud.png" class="light-border">
+            </div>
+            <ul>
+                <li>Need an account</li>
+                <li>Share link with team</li>
+                <li>Anyone can comment</li>
+                <li>Great for collaboration</li>
+            </ul>
+        </section>
+
+        <section>
+            <h1 class="blue">Break time!</h1>
+        </section>
+
+        <section>
+            <h3>Plugins</h3>
+            <br />
+            <ul>
+                <li>Use <a target="_blank" href="https://sketchpacks.com/">Sketch Packs</a> - a Plugin Manager for auto updates.</li>
+                <li>Explore the <a target="_blank" href="https://www.sketchapp.com/extensions/plugins/">List of Plugins</a> and check github to see how maintained they are.</li>
+                <li>Gamechanger: <a target="_blank" href="https://www.invisionapp.com/craft">Craft</a> plugin</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Design a Mobile App</h3>
+            <br />
+            <div> 
+                <img src="./images/finished.png" class="light-border">
+            </div>
+        </section>
+
+        <section>
+            <h3>Design a Mobile App</h3>
+            <br />
+            <p class="left">Step 1: Download:<a href="../project_files.zip"> Project Files</a></p>
+            <p class="left">Step 2: Duplicate Wireframe Page and name "High Fidelity"</p>
+            <p class="left">Step 3: Work some sketch magic with Craft!</p>
+        </section>
+        
+        <section>
+            <h4>Design a Mobile App</h4>
+            <br />
+            <div class="left"> 
+                <img src="./images/craft-data.png" class="light-border">
+            </div>
+            <p>Use Craft Data to fill in blank placeholders with text and images</p>
+        </section>
+
+        <section>
+            <h4>Design a Mobile App</h4>
+            <br />
+            <div> 
+                <img src="./images/craft-duplicate.png" class="light-border">
+            </div>
+            <p>Use Craft Duplicate to copy sections to fill artboards</p>
+        </section>
+
+        <section>
+            <h3>Let's Develop It! 💻</h3>
+            <br />
+            <p class="blue">Play around with Craft to start filling in the wireframes.</p> 
+            <p class="blue">Let's add some text styles and layer styles.</p> 
+            <p class="blue">Make some symbols that you can reuse in your project. Bonus points if they are organized into folders 😃</p> 
+        </section>
+
+        <section>
+            <h3>Useful References</h3>
+            <br />
+            <a target="_blank" href="http://sketchshortcuts.com/">Keyboard Shortcuts</a><br />
+            <a target="_blank" href="https://www.sketchappsources.com/">Sketch App Sources -Freebies</a><br />
+            <a target="_blank" href="https://sketchpacks.com/">Sketch Packs - Plugin Manager</a><br />
+            <a target="_blank" href="https://www.sketchapp.com/extensions/plugins/">List of Plugins</a><br />
+            <a target="_blank" href="https://www.invisionapp.com/craft">Invision Craft</a><br />
+            <a target="_blank" href="https://launchpad.animaapp.com/">LaunchPad <span>GDINYC20 for 20% off for 3 months</span></a><br />
         </section>
 
         <section>
@@ -239,7 +394,7 @@
         <section>
           <h2>Survey</h2>
           <br /><br />
-          <p class="center"><a href="http://bit.ly/gdi-sketch">http://bit.ly/gdi-sketch</a></p>
+          <p class="center"><a target="_blank" href="http://bit.ly/GDI-NYC">http://bit.ly/GDI-NYC</a></p>
         </section>
 
 		</div>
